@@ -1,0 +1,148 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.logout{
+    color: white;
+    text-decoration: none;
+}
+
+.user-welcome{
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px rgb(0, 0, 0);
+}
+
+.search-container{
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;    
+}
+
+.search-bar{
+    height: 40px;
+    width: 30rem;
+    border-radius: 10px;
+    background: #ffffffef;
+    color: rgb(255, 99, 72);
+    border: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    font-size: 16px;
+    line-height: 40px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.search-btn{
+    line-height: 40px;
+    margin-left: 0.5rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: #ffffffef;
+    text-align: center;
+    width: 5rem;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.table-container{
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.table-container h1{
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 2rem;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+    text-shadow: 1px 1px 5px rgb(0, 0, 0);
+}
+
+.table{
+    border-collapse: collapse;
+    font-size: 1.1em;
+    min-width: 400px;
+    background: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px 5px 5px 5px;
+    overflow: hidden;
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+}
+
+.table thead tr th{
+    background-color: rgb(255, 99, 72);
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.table th,
+.table td{
+    padding: 12px 15px;
+}
+
+.table tbody tr{
+    border-bottom: 1px solid #dddddd;
+    font-weight: bolder;
+}
+
+.table tbody tr td:nth-of-type(even){
+    background: #f3f3f3;
+}
+
+.sort-buttons{
+    min-height: 200px;
+    margin-top: 50px;
+    display: table;
+    margin: auto;
+}
+
+.sort-text{
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 5px rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.button-area{
+    padding: 5px;
+    display: inline;
+}
+
+.srt-btn{
+    width: 200px;
+    padding: 15px 20px;
+    text-align: center;
+    border: none;
+    background: rgb(255, 99, 72);
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: #FFF;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.srt-btn:hover {
+    transform: translateY(5px);
+    background: rgb(235, 99, 72);
+}
+
+.hidden {
+    display: none;
+    visibility: hidden;
+}
